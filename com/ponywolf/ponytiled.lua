@@ -3,7 +3,7 @@
 -- Loads LUA saved map files from Tiled http://www.mapeditor.org/
 
 local physics = require "physics"
---local path = require "com.luapower.path" --optional to resolve relative paths on android
+-- local path = require "com.luapower.path" --optional to resolve relative paths on android
 local xml = require("com.coronalabs.xml").newParser()
 local json = require "json"
 
@@ -453,18 +453,16 @@ function M.new(data, dir)
 
   -- return all display objects with type
   function map:listTypes(...)
-    print "listTypes!";
+    print "listTypes!"
 
     local objects = {}
     for layers = self.numChildren, 1, -1 do
       local layer = self[layers]
 
-      
-
       if layer.numChildren then
         for i = layer.numChildren, 1, -1 do
           for j = 1, #arg do
-            print("layer[i].type",arg[j])
+            print("layer[i].type", arg[j])
 
             if arg[j] == nil or layer[i].type == arg[j] then
               objects[#objects + 1] = layer[i]
@@ -478,7 +476,6 @@ function M.new(data, dir)
   end
 
   function map:findLayer(name)
-   
     if self.numChildren then
       for layers = 1, self.numChildren do
         if self[layers].name == name then -- search layers

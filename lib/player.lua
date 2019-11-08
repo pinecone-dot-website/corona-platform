@@ -13,7 +13,8 @@ function M.new(instance, options)
         }
     )
 
-    instance.isFixedRotation = true
+    instance.isFixedRotation = false
+    instance.angularDamping = 20
 
     local max, left, right = 1000, 0, 0
 
