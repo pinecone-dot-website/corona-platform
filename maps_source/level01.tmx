@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="37">
+ <tileset firstgid="1" source="../../Maze/Maze/tiled_source/blue_collision.tsx"/>
+ <tileset firstgid="2" source="../../Maze/Maze/tiled_source/blue.tsx"/>
+ <objectgroup id="4" name="Object Layer 2">
+  <object id="20" gid="1" x="128" y="960" width="768" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="25" gid="1" x="256" y="928" width="288" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="26" gid="1" x="416" y="896" width="64" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="27" gid="1" x="448" y="864" width="64" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="28" gid="1" x="448" y="832" width="64" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="29" gid="1" x="448" y="800" width="64" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="30" gid="1" x="480" y="768" width="64" height="160">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="31" gid="1" x="0" y="992" width="32" height="992">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="32" gid="1" x="0" y="1024" width="992" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="33" gid="1" x="32" y="32" width="992" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="34" gid="1" x="992" y="1024" width="32" height="992">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="35" gid="1" x="160" y="416" width="256" height="32">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="36" gid="1" x="544" y="320" width="288" height="64">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="player" type="player" gid="2147483650" x="128" y="864" width="32" height="32"/>
+ </objectgroup>
+</map>
