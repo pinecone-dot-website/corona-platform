@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="37">
- <tileset firstgid="1" source="../../Maze/Maze/tiled_source/blue_collision.tsx"/>
- <tileset firstgid="2" source="../../Maze/Maze/tiled_source/blue.tsx"/>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="58">
+ <tileset firstgid="1" source="colored_blocks_1x4.tsx"/>
  <objectgroup id="4" name="Object Layer 2">
   <object id="20" gid="1" x="128" y="960" width="768" height="32">
    <properties>
@@ -81,8 +80,25 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
+  <object id="41" gid="2" x="96" y="640" width="32" height="32"/>
+  <object id="42" gid="2" x="256" y="736" width="32" height="32"/>
+  <object id="43" gid="2" x="352" y="640" width="32" height="32"/>
+  <object id="44" gid="2" x="768" y="800" width="32" height="32"/>
+  <object id="45" gid="2" x="544" y="576" width="32" height="32"/>
+  <object id="46" gid="2" x="288" y="544" width="32" height="32"/>
+  <object id="47" gid="2" x="96" y="864" width="32" height="32"/>
+  <object id="48" gid="2" x="160" y="896" width="32" height="32"/>
+  <object id="49" gid="2" x="352" y="832" width="32" height="32"/>
+  <object id="50" gid="2" x="160" y="512" width="32" height="32"/>
+  <object id="51" gid="2" x="704" y="480" width="32" height="32"/>
+  <object id="52" gid="2" x="832" y="672" width="32" height="32"/>
+  <object id="53" gid="2" x="928" y="288" width="32" height="32"/>
+  <object id="54" gid="2" x="512" y="96" width="32" height="32"/>
+  <object id="55" gid="2" x="256" y="160" width="32" height="32"/>
+  <object id="56" gid="2" x="128" y="320" width="32" height="32"/>
+  <object id="57" gid="2" x="832" y="160" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="1" name="player" type="player" gid="2147483650" x="128" y="864" width="32" height="32"/>
+  <object id="37" name="player" type="player" gid="4" x="160" y="800" width="32" height="32"/>
  </objectgroup>
 </map>
