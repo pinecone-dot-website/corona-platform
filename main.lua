@@ -1,3 +1,5 @@
+system.activate( "multitouch" )
+
 local tiled = require("com.ponywolf.ponytiled")
 local json = require("json")
 local filename = "maps/level02.json"
